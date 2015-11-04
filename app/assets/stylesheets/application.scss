@@ -1,2 +1,30 @@
 @import "bootstrap-sprockets";
 @import "bootstrap";
+
+// #home {
+//   background-image: url("cotton.jpg");
+//   background-size: cover;
+// }
+
+#home{
+  background: url("cotton.jpg");
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  min-height:100%;
+  min-width:100%;
+  position: absolute;
+
+}
+
+#show{
+  background-image: url("blue.jpg");
+  min-height:100%;
+  min-width:100%;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  position: absolute;
+}
